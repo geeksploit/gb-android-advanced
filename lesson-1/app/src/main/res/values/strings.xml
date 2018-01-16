@@ -5,4 +5,5 @@
     <string name="menu_action_preferences">Preferences</string>
     <string name="description_sunshine">Sunshine</string>
     <string name="context_shine">Shine</string>
+    <string name="message_sunshine">The sun is shining!</string>
 </resources>
