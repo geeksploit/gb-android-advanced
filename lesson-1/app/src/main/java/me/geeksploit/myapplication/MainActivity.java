@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_action_add:
                 Toast.makeText(this, R.string.menu_action_add, Toast.LENGTH_LONG).show();
                 return true;
+            case R.id.menu_action_preferences:
+                Toast.makeText(this, R.string.menu_action_preferences, Toast.LENGTH_LONG).show();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
