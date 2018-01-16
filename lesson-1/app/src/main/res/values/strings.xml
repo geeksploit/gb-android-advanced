@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="meny_action_add">Add</string>
+    <string name="menu_action_help">Help</string>
 </resources>
