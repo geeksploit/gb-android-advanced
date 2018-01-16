@@ -48,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {
-        return super.onContextItemSelected(item);
+        switch (item.getItemId()) {
+            case R.id.context_shrink:
+                Toast.makeText(this, R.string.message_sunshine, Toast.LENGTH_LONG).show();
+                return true;
+            default:
+                return super.onContextItemSelected(item);
+        }
     }
 }
