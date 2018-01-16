@@ -1,7 +1,7 @@
 package me.geeksploit.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.context_shrink:
+            case R.id.context_shine:
                 Toast.makeText(this, R.string.message_sunshine, Toast.LENGTH_LONG).show();
                 return true;
             default:
