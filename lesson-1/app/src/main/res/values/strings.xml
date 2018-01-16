@@ -3,4 +3,5 @@
     <string name="meny_action_add">Add</string>
     <string name="menu_action_help">Help</string>
     <string name="menu_action_preferences">Preferences</string>
+    <string name="description_sunshine">Sunshine</string>
 </resources>
