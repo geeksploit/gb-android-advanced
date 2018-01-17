@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextCode" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:background">@color/textBackgroundCode</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_padding_code</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="TextQuote" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@color/textBackgroundQuote</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_padding_quote</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
