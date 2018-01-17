@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="menu_action_add">Add</string>
+    <string name="menu_action_help">Help</string>
+    <string name="menu_action_preferences">Preferences</string>
+    <string name="description_sunshine">Sunshine</string>
+    <string name="context_shine">Shine</string>
+    <string name="message_sunshine">The sun is shining!</string>
+</resources>
