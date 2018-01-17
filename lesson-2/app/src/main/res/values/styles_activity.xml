@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="AppDark" parent="AppTheme">
+        <item name="android:background">#1e30d4</item>
+    </style>
 </resources>
