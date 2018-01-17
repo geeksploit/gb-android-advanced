@@ -5,7 +5,10 @@
 
     <item android:title="@string/menu_title_communicate">
         <menu>
-
+            <item
+                android:id="@+id/nav_author"
+                android:icon="@drawable/ic_menu_about_the_author"
+                android:title="@string/nav_menu_about_the_author" />
         </menu>
     </item>
 
