@@ -5,4 +5,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
+    <Button
+        style="@style/ButtonShort"
+        android:text="@string/button_short" />
 </LinearLayout>
