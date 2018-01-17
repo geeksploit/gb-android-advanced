@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="activityBackgroundDark">#1e30d4</color>
+
+    <color name="textBackgroundCode">#62d2ff</color>
 </resources>
