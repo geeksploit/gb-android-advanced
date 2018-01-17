@@ -2,6 +2,6 @@
 <resources>
 
     <style name="AppDark" parent="AppTheme">
-        <item name="android:background">#1e30d4</item>
+        <item name="android:background">@color/activityBackgroundDark</item>
     </style>
 </resources>
