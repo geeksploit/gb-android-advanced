@@ -6,4 +6,5 @@
     <string name="quote_bugs">My code never has bugs. It just develops random unexpected features.</string>
     <string name="menu_title_communicate">Communicate</string>
     <string name="nav_menu_about_the_author">About the author</string>
+    <string name="nav_menu_send_feedback">Send feedback</string>
 </resources>
