@@ -2,4 +2,5 @@
     <string name="app_name">My Application</string>
     <string name="button_short">Short</string>
     <string name="button_wide">Wide</string>
+    <string name="code_hello_world">System.out.println(\"Hello world!\");</string>
 </resources>
