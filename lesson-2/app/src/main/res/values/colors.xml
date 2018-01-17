@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="activityBackgroundDark">#1e30d4</color>
+    <color name="activityBackgroundDark">#005ecb</color>
 
-    <color name="textBackgroundCode">#62d2ff</color>
-    <color name="textBackgroundQuote">#e8f7e5</color>
+    <color name="textBackgroundCode">#448aff</color>
+    <color name="textBackgroundQuote">#83b3ff</color>
 </resources>
