@@ -2,4 +2,5 @@
 <resources>
     <drawable name="ic_menu_about_the_author">@android:drawable/ic_menu_info_details</drawable>
     <drawable name="ic_menu_feedback">@android:drawable/ic_menu_send</drawable>
+    <drawable name="ic_menu_list">@android:drawable/ic_menu_sort_by_size</drawable>
 </resources>
