@@ -14,10 +14,10 @@
         android:text="@string/code_hello_world" />
 
     <Button
-        style="@style/ButtonShort"
-        android:text="@string/button_short" />
-
-    <Button
         style="@style/ButtonWide"
         android:text="@string/button_wide" />
+
+    <Button
+        style="@style/ButtonShort"
+        android:text="@string/button_short" />
 </LinearLayout>
