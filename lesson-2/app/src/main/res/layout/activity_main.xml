@@ -8,4 +8,8 @@
     <Button
         style="@style/ButtonShort"
         android:text="@string/button_short" />
+
+    <Button
+        style="@style/ButtonWide"
+        android:text="@string/button_wide" />
 </LinearLayout>
