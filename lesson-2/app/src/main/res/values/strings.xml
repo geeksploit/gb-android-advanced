@@ -4,4 +4,5 @@
     <string name="button_wide">Wide</string>
     <string name="code_hello_world">System.out.println(\"Hello world!\");</string>
     <string name="quote_bugs">My code never has bugs. It just develops random unexpected features.</string>
+    <string name="menu_title_communicate">Communicate</string>
 </resources>
