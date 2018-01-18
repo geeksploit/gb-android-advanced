@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_author:
                 displayAuthorInfo();
                 break;
+            case R.id.nav_feedback:
+                sendFeedback();
+                break;
             default:
                 throw new UnsupportedOperationException("Unknown item: " + item);
         }
@@ -75,5 +78,10 @@ public class MainActivity extends AppCompatActivity
 
     private void displayAuthorInfo() {
         displayCenteredToast(getString(R.string.message_about_the_author));
+    }
+
+    private void sendFeedback() {
+        // TODO: open send feedback dialog instead
+        displayCenteredToast(getString(R.string.message_thanks_for_feedback));
     }
 }
