@@ -51,6 +51,15 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()) {
+            case R.id.nav_author:
+                displayAuthorInfo();
+                break;
+            default:
+                throw new UnsupportedOperationException("Unknown item: " + item);
+        }
+
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
 
@@ -62,5 +71,9 @@ public class MainActivity extends AppCompatActivity
         TextView textView = toast.getView().findViewById(android.R.id.message);
         textView.setGravity(Gravity.CENTER);
         toast.show();
+    }
+
+    private void displayAuthorInfo() {
+        displayCenteredToast(getString(R.string.message_about_the_author));
     }
 }
