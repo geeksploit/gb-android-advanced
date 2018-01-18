@@ -9,4 +9,6 @@
     <string name="nav_menu_send_feedback">Send feedback</string>
     <string name="nav_menu_list_of_examples">List of examples</string>
     <string name="nav_menu_world_map">World map</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
