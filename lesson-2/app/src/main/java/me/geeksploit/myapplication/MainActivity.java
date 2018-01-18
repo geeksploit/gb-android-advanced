@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
+            case R.id.nav_map:
+                displayMap();
+                break;
             case R.id.nav_author:
                 displayAuthorInfo();
                 break;
@@ -74,6 +77,11 @@ public class MainActivity extends AppCompatActivity
         TextView textView = toast.getView().findViewById(android.R.id.message);
         textView.setGravity(Gravity.CENTER);
         toast.show();
+    }
+
+    private void displayMap() {
+        // TODO: open map fragment instead
+        displayCenteredToast(getString(R.string.message_maps_are_not_supported));
     }
 
     private void displayAuthorInfo() {
