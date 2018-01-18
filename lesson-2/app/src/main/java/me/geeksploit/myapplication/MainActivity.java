@@ -8,7 +8,10 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -49,5 +52,12 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return false;
+    }
+
+    private void displayCenteredToast(String message) {
+        Toast toast = Toast.makeText(this, message, Toast.LENGTH_LONG);
+        TextView textView = toast.getView().findViewById(android.R.id.message);
+        textView.setGravity(Gravity.CENTER);
+        toast.show();
     }
 }
