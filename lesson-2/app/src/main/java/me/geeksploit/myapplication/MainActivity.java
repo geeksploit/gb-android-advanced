@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
+            case R.id.nav_list:
+                displayExamples();
+                break;
             case R.id.nav_map:
                 displayMap();
                 break;
@@ -77,6 +80,10 @@ public class MainActivity extends AppCompatActivity
         TextView textView = toast.getView().findViewById(android.R.id.message);
         textView.setGravity(Gravity.CENTER);
         toast.show();
+    }
+
+    private void displayExamples() {
+        // TODO: display examples list
     }
 
     private void displayMap() {
