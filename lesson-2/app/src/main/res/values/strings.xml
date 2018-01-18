@@ -4,4 +4,14 @@
     <string name="button_wide">Wide</string>
     <string name="code_hello_world">System.out.println(\"Hello world!\");</string>
     <string name="quote_bugs">My code never has bugs. It just develops random unexpected features.</string>
+    <string name="menu_title_communicate">Communicate</string>
+    <string name="nav_menu_about_the_author">About the author</string>
+    <string name="nav_menu_send_feedback">Send feedback</string>
+    <string name="nav_menu_list_of_examples">List of examples</string>
+    <string name="nav_menu_world_map">World map</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="message_about_the_author">Created by Geeksploit for GeekBrains.\n© 2018</string>
+    <string name="message_thanks_for_feedback">Feedback has been sent.\nThank you!</string>
+    <string name="message_maps_are_not_supported">Maps are not supported yet.\nStay tuned!</string>
 </resources>
